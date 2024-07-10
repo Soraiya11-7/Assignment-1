@@ -85,6 +85,50 @@
     text-align: center;
 
 }
+/* Why Web section... */
+.web-container{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    padding:80px 97px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+
+}
+.web-content{
+    width: 946px;
+    height: 1072px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details-web-content{
+    width: 850px;
+    height: 336px;
+    margin: 0 auto;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;  
+    margin-bottom: 32px;
+    
+}
+
+
+
+
+
+
+/*  */
 .inspiration{
     width: 1140px;
     height: 775px;
