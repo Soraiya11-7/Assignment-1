@@ -126,6 +126,7 @@
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+    margin-bottom: 145px;
 
 }
 .video-content{
@@ -146,8 +147,105 @@
     margin-bottom: 151px;   
     
 }
+/* target section starts here */
+.target-container{
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.target-title{
+    width: 852px;
+    height: 39px;
+    margin: 0 auto;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;   
+    text-align: center;
+    margin-bottom: 24px;
+}
+.target-description{
+     width: 852px;
+     height: 52px;
+     text-align: center;
+     color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 48px;
 
+}
+.target-content{
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    /* border: 2px solid red; */
+}
+.details-target-content{
+    width: 364px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:normal;
+    padding: 0px  40px;  
+}
+.html-1{
+    background: rgba(255, 76, 30, 0.05);
 
+}
+.css-1{
+    background: rgba(0, 76, 232, 0.05);
+}
+.js-1{
+     background: rgba(255, 223, 0, 0.05);
+}
+.target-web-content-title{
+    width: 284px;
+    height: 36px;
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.target-web-content-description{
+    width: 284px;
+    height: 52px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    }
+
+.html, .css , .js{
+    width: 56px;
+    height: 56px;
+    margin: 24px 0px;
+
+}
+.L-btn{
+    width: 284px;
+    height: 20px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    text-decoration-line: underline;
+}
 
 
 /* support section starts here... */
@@ -198,6 +296,7 @@
 .input-btn{
     width: 684px;
     height: 57px;
+    margin: 0 auto;
     display: flex;
     justify-content:center;
     align-items: center;
